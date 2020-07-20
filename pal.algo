@@ -1,0 +1,13 @@
+ALGORITHM palendrome
+VAR
+    str:STRING;
+    i:INTEGER:=0;
+    j:INTEGER;
+BEGIN
+    j:=str.length-1;
+    IF (pal(str,i,j)) THEN
+        write('is palendrome')
+    ELSE
+        write('is not palendrome')
+    END_IF 
+END
